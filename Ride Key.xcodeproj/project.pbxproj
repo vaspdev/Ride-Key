@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA7D90421A7B3F56001B50B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D90411A7B3F56001B50B5 /* AppDelegate.swift */; };
+		DA7D90441A7B3F56001B50B5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D90431A7B3F56001B50B5 /* FirstViewController.swift */; };
+		DA7D90461A7B3F56001B50B5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D90451A7B3F56001B50B5 /* SecondViewController.swift */; };
+		DA7D90491A7B3F56001B50B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7D90471A7B3F56001B50B5 /* Main.storyboard */; };
+		DA7D904B1A7B3F56001B50B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7D904A1A7B3F56001B50B5 /* Images.xcassets */; };
+		DA7D904E1A7B3F56001B50B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7D904C1A7B3F56001B50B5 /* LaunchScreen.xib */; };
+		DA7D905A1A7B3F56001B50B5 /* Ride_KeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D90591A7B3F56001B50B5 /* Ride_KeyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA7D90541A7B3F56001B50B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA7D90341A7B3F56001B50B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA7D903B1A7B3F56001B50B5;
+			remoteInfo = "Ride Key";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA7D903C1A7B3F56001B50B5 /* Ride Key.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ride Key.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7D90401A7B3F56001B50B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7D90411A7B3F56001B50B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA7D90431A7B3F56001B50B5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DA7D90451A7B3F56001B50B5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DA7D90481A7B3F56001B50B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA7D904A1A7B3F56001B50B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA7D904D1A7B3F56001B50B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA7D90531A7B3F56001B50B5 /* Ride KeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ride KeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7D90581A7B3F56001B50B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7D90591A7B3F56001B50B5 /* Ride_KeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride_KeyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA7D90391A7B3F56001B50B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7D90501A7B3F56001B50B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA7D90331A7B3F56001B50B5 = {
+			isa = PBXGroup;
+			children = (
+				DA7D903E1A7B3F56001B50B5 /* Ride Key */,
+				DA7D90561A7B3F56001B50B5 /* Ride KeyTests */,
+				DA7D903D1A7B3F56001B50B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA7D903D1A7B3F56001B50B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D903C1A7B3F56001B50B5 /* Ride Key.app */,
+				DA7D90531A7B3F56001B50B5 /* Ride KeyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA7D903E1A7B3F56001B50B5 /* Ride Key */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D90411A7B3F56001B50B5 /* AppDelegate.swift */,
+				DA7D90431A7B3F56001B50B5 /* FirstViewController.swift */,
+				DA7D90451A7B3F56001B50B5 /* SecondViewController.swift */,
+				DA7D90471A7B3F56001B50B5 /* Main.storyboard */,
+				DA7D904A1A7B3F56001B50B5 /* Images.xcassets */,
+				DA7D904C1A7B3F56001B50B5 /* LaunchScreen.xib */,
+				DA7D903F1A7B3F56001B50B5 /* Supporting Files */,
+			);
+			path = "Ride Key";
+			sourceTree = "<group>";
+		};
+		DA7D903F1A7B3F56001B50B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D90401A7B3F56001B50B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA7D90561A7B3F56001B50B5 /* Ride KeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D90591A7B3F56001B50B5 /* Ride_KeyTests.swift */,
+				DA7D90571A7B3F56001B50B5 /* Supporting Files */,
+			);
+			path = "Ride KeyTests";
+			sourceTree = "<group>";
+		};
+		DA7D90571A7B3F56001B50B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D90581A7B3F56001B50B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA7D903B1A7B3F56001B50B5 /* Ride Key */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7D905D1A7B3F56001B50B5 /* Build configuration list for PBXNativeTarget "Ride Key" */;
+			buildPhases = (
+				DA7D90381A7B3F56001B50B5 /* Sources */,
+				DA7D90391A7B3F56001B50B5 /* Frameworks */,
+				DA7D903A1A7B3F56001B50B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ride Key";
+			productName = "Ride Key";
+			productReference = DA7D903C1A7B3F56001B50B5 /* Ride Key.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA7D90521A7B3F56001B50B5 /* Ride KeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7D90601A7B3F56001B50B5 /* Build configuration list for PBXNativeTarget "Ride KeyTests" */;
+			buildPhases = (
+				DA7D904F1A7B3F56001B50B5 /* Sources */,
+				DA7D90501A7B3F56001B50B5 /* Frameworks */,
+				DA7D90511A7B3F56001B50B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA7D90551A7B3F56001B50B5 /* PBXTargetDependency */,
+			);
+			name = "Ride KeyTests";
+			productName = "Ride KeyTests";
+			productReference = DA7D90531A7B3F56001B50B5 /* Ride KeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA7D90341A7B3F56001B50B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = VASP;
+				TargetAttributes = {
+					DA7D903B1A7B3F56001B50B5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DA7D90521A7B3F56001B50B5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DA7D903B1A7B3F56001B50B5;
+					};
+				};
+			};
+			buildConfigurationList = DA7D90371A7B3F56001B50B5 /* Build configuration list for PBXProject "Ride Key" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA7D90331A7B3F56001B50B5;
+			productRefGroup = DA7D903D1A7B3F56001B50B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA7D903B1A7B3F56001B50B5 /* Ride Key */,
+				DA7D90521A7B3F56001B50B5 /* Ride KeyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA7D903A1A7B3F56001B50B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7D90491A7B3F56001B50B5 /* Main.storyboard in Resources */,
+				DA7D904E1A7B3F56001B50B5 /* LaunchScreen.xib in Resources */,
+				DA7D904B1A7B3F56001B50B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7D90511A7B3F56001B50B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA7D90381A7B3F56001B50B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7D90461A7B3F56001B50B5 /* SecondViewController.swift in Sources */,
+				DA7D90421A7B3F56001B50B5 /* AppDelegate.swift in Sources */,
+				DA7D90441A7B3F56001B50B5 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7D904F1A7B3F56001B50B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7D905A1A7B3F56001B50B5 /* Ride_KeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA7D90551A7B3F56001B50B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA7D903B1A7B3F56001B50B5 /* Ride Key */;
+			targetProxy = DA7D90541A7B3F56001B50B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA7D90471A7B3F56001B50B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA7D90481A7B3F56001B50B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA7D904C1A7B3F56001B50B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA7D904D1A7B3F56001B50B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA7D905B1A7B3F56001B50B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DA7D905C1A7B3F56001B50B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA7D905E1A7B3F56001B50B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ride Key/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA7D905F1A7B3F56001B50B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ride Key/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA7D90611A7B3F56001B50B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ride KeyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ride Key.app/Ride Key";
+			};
+			name = Debug;
+		};
+		DA7D90621A7B3F56001B50B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ride KeyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ride Key.app/Ride Key";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA7D90371A7B3F56001B50B5 /* Build configuration list for PBXProject "Ride Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7D905B1A7B3F56001B50B5 /* Debug */,
+				DA7D905C1A7B3F56001B50B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7D905D1A7B3F56001B50B5 /* Build configuration list for PBXNativeTarget "Ride Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7D905E1A7B3F56001B50B5 /* Debug */,
+				DA7D905F1A7B3F56001B50B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA7D90601A7B3F56001B50B5 /* Build configuration list for PBXNativeTarget "Ride KeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7D90611A7B3F56001B50B5 /* Debug */,
+				DA7D90621A7B3F56001B50B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA7D90341A7B3F56001B50B5 /* Project object */;
+}
