@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA4891E21A838341005D5EA8 /* Addorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4891E11A838341005D5EA8 /* Addorder.swift */; };
+		DA5206D01A8102A100CC1519 /* Button-Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5206CA1A8102A100CC1519 /* Button-Blue.png */; };
+		DA5206D11A8102A100CC1519 /* Button-White.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5206CB1A8102A100CC1519 /* Button-White.png */; };
+		DA5206D21A8102A100CC1519 /* Button-Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5206CC1A8102A100CC1519 /* Button-Yellow.png */; };
+		DA5206D31A8102A100CC1519 /* Table-F.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5206CD1A8102A100CC1519 /* Table-F.png */; };
+		DA5206D41A8102A100CC1519 /* Table-H1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5206CE1A8102A100CC1519 /* Table-H1.png */; };
+		DA5206D51A8102A100CC1519 /* Table-H2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5206CF1A8102A100CC1519 /* Table-H2.png */; };
+		DA5672FC1A81F82400A076B6 /* RideOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5672FB1A81F82400A076B6 /* RideOrder.swift */; };
+		DA5673001A82210A00A076B6 /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA5672FF1A82210A00A076B6 /* json.txt */; };
+		DA5673021A82222B00A076B6 /* commanfunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5673011A82222B00A076B6 /* commanfunction.swift */; };
+		DA5673051A82396F00A076B6 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = DA5673041A82396F00A076B6 /* test.json */; };
+		DA64D7F21A888A70002EE630 /* TodayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA64D7F11A888A70002EE630 /* TodayVC.swift */; };
+		DA64D7F41A88C3F6002EE630 /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA64D7F31A88C3F6002EE630 /* Today.swift */; };
+		DA6E4FA21A89CFA400547080 /* ride.json in Resources */ = {isa = PBXBuildFile; fileRef = DA6E4FA11A89CFA400547080 /* ride.json */; };
+		DA6E4FA41A89D10300547080 /* RideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6E4FA31A89D10300547080 /* RideVC.swift */; };
+		DA6E4FA61A89D3B100547080 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6E4FA51A89D3B100547080 /* Ride.swift */; };
 		DA7D90421A7B3F56001B50B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D90411A7B3F56001B50B5 /* AppDelegate.swift */; };
 		DA7D90441A7B3F56001B50B5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D90431A7B3F56001B50B5 /* FirstViewController.swift */; };
 		DA7D90461A7B3F56001B50B5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D90451A7B3F56001B50B5 /* SecondViewController.swift */; };
@@ -14,6 +30,17 @@
 		DA7D904B1A7B3F56001B50B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7D904A1A7B3F56001B50B5 /* Images.xcassets */; };
 		DA7D904E1A7B3F56001B50B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7D904C1A7B3F56001B50B5 /* LaunchScreen.xib */; };
 		DA7D905A1A7B3F56001B50B5 /* Ride_KeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D90591A7B3F56001B50B5 /* Ride_KeyTests.swift */; };
+		DA7D90661A7B412B001B50B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D90651A7B412B001B50B5 /* LoginViewController.swift */; };
+		DA7D907B1A7B431F001B50B5 /* note-128.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7D90751A7B431F001B50B5 /* note-128.png */; };
+		DA7D907C1A7B431F001B50B5 /* save_64.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7D90761A7B431F001B50B5 /* save_64.png */; };
+		DA7D907D1A7B431F001B50B5 /* schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7D90771A7B431F001B50B5 /* schedule.png */; };
+		DA7D907E1A7B431F001B50B5 /* settings-128.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7D90781A7B431F001B50B5 /* settings-128.png */; };
+		DA7D907F1A7B431F001B50B5 /* share-128.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7D90791A7B431F001B50B5 /* share-128.png */; };
+		DA7D90801A7B431F001B50B5 /* truck-128.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7D907A1A7B431F001B50B5 /* truck-128.png */; };
+		DA7D90841A7B4409001B50B5 /* 19-calendar-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7D90811A7B4409001B50B5 /* 19-calendar-512x512.png */; };
+		DA7D90851A7B4409001B50B5 /* calendar-128 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = DA7D90821A7B4409001B50B5 /* calendar-128 (1).png */; };
+		DA7D90861A7B4409001B50B5 /* calendar-128.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7D90831A7B4409001B50B5 /* calendar-128.png */; };
+		DA8746A71A7FA9A500F0B241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8746A61A7FA9A500F0B241 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +54,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA4891E11A838341005D5EA8 /* Addorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Addorder.swift; sourceTree = "<group>"; };
+		DA5206CA1A8102A100CC1519 /* Button-Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-Blue.png"; path = "UI Elements for RIDEKICK/Button-Blue.png"; sourceTree = SOURCE_ROOT; };
+		DA5206CB1A8102A100CC1519 /* Button-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-White.png"; path = "UI Elements for RIDEKICK/Button-White.png"; sourceTree = SOURCE_ROOT; };
+		DA5206CC1A8102A100CC1519 /* Button-Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-Yellow.png"; path = "UI Elements for RIDEKICK/Button-Yellow.png"; sourceTree = SOURCE_ROOT; };
+		DA5206CD1A8102A100CC1519 /* Table-F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Table-F.png"; path = "UI Elements for RIDEKICK/Table-F.png"; sourceTree = SOURCE_ROOT; };
+		DA5206CE1A8102A100CC1519 /* Table-H1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Table-H1.png"; path = "UI Elements for RIDEKICK/Table-H1.png"; sourceTree = SOURCE_ROOT; };
+		DA5206CF1A8102A100CC1519 /* Table-H2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Table-H2.png"; path = "UI Elements for RIDEKICK/Table-H2.png"; sourceTree = SOURCE_ROOT; };
+		DA5672FB1A81F82400A076B6 /* RideOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideOrder.swift; sourceTree = "<group>"; };
+		DA5672FF1A82210A00A076B6 /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		DA5673011A82222B00A076B6 /* commanfunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commanfunction.swift; sourceTree = "<group>"; };
+		DA5673041A82396F00A076B6 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		DA64D7F11A888A70002EE630 /* TodayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayVC.swift; sourceTree = "<group>"; };
+		DA64D7F31A88C3F6002EE630 /* Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		DA6E4FA11A89CFA400547080 /* ride.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ride.json; sourceTree = "<group>"; };
+		DA6E4FA31A89D10300547080 /* RideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideVC.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DA6E4FA51A89D3B100547080 /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
 		DA7D903C1A7B3F56001B50B5 /* Ride Key.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ride Key.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7D90401A7B3F56001B50B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA7D90411A7B3F56001B50B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +81,17 @@
 		DA7D90531A7B3F56001B50B5 /* Ride KeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ride KeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7D90581A7B3F56001B50B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA7D90591A7B3F56001B50B5 /* Ride_KeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride_KeyTests.swift; sourceTree = "<group>"; };
+		DA7D90651A7B412B001B50B5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA7D90751A7B431F001B50B5 /* note-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note-128.png"; sourceTree = "<group>"; };
+		DA7D90761A7B431F001B50B5 /* save_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save_64.png; sourceTree = "<group>"; };
+		DA7D90771A7B431F001B50B5 /* schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule.png; sourceTree = "<group>"; };
+		DA7D90781A7B431F001B50B5 /* settings-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-128.png"; sourceTree = "<group>"; };
+		DA7D90791A7B431F001B50B5 /* share-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-128.png"; sourceTree = "<group>"; };
+		DA7D907A1A7B431F001B50B5 /* truck-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "truck-128.png"; sourceTree = "<group>"; };
+		DA7D90811A7B4409001B50B5 /* 19-calendar-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-calendar-512x512.png"; sourceTree = "<group>"; };
+		DA7D90821A7B4409001B50B5 /* calendar-128 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-128 (1).png"; sourceTree = "<group>"; };
+		DA7D90831A7B4409001B50B5 /* calendar-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-128.png"; sourceTree = "<group>"; };
+		DA8746A61A7FA9A500F0B241 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +133,7 @@
 		DA7D903E1A7B3F56001B50B5 /* Ride Key */ = {
 			isa = PBXGroup;
 			children = (
+				DA7D90741A7B431F001B50B5 /* image */,
 				DA7D90411A7B3F56001B50B5 /* AppDelegate.swift */,
 				DA7D90431A7B3F56001B50B5 /* FirstViewController.swift */,
 				DA7D90451A7B3F56001B50B5 /* SecondViewController.swift */,
@@ -86,6 +141,18 @@
 				DA7D904A1A7B3F56001B50B5 /* Images.xcassets */,
 				DA7D904C1A7B3F56001B50B5 /* LaunchScreen.xib */,
 				DA7D903F1A7B3F56001B50B5 /* Supporting Files */,
+				DA7D90651A7B412B001B50B5 /* LoginViewController.swift */,
+				DA8746A61A7FA9A500F0B241 /* ViewController.swift */,
+				DA5672FB1A81F82400A076B6 /* RideOrder.swift */,
+				DA5672FF1A82210A00A076B6 /* json.txt */,
+				DA5673011A82222B00A076B6 /* commanfunction.swift */,
+				DA6E4FA11A89CFA400547080 /* ride.json */,
+				DA5673041A82396F00A076B6 /* test.json */,
+				DA4891E11A838341005D5EA8 /* Addorder.swift */,
+				DA64D7F11A888A70002EE630 /* TodayVC.swift */,
+				DA64D7F31A88C3F6002EE630 /* Today.swift */,
+				DA6E4FA31A89D10300547080 /* RideVC.swift */,
+				DA6E4FA51A89D3B100547080 /* Ride.swift */,
 			);
 			path = "Ride Key";
 			sourceTree = "<group>";
@@ -114,6 +181,28 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		DA7D90741A7B431F001B50B5 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D90811A7B4409001B50B5 /* 19-calendar-512x512.png */,
+				DA5206CA1A8102A100CC1519 /* Button-Blue.png */,
+				DA5206CB1A8102A100CC1519 /* Button-White.png */,
+				DA5206CC1A8102A100CC1519 /* Button-Yellow.png */,
+				DA5206CD1A8102A100CC1519 /* Table-F.png */,
+				DA5206CE1A8102A100CC1519 /* Table-H1.png */,
+				DA5206CF1A8102A100CC1519 /* Table-H2.png */,
+				DA7D90821A7B4409001B50B5 /* calendar-128 (1).png */,
+				DA7D90831A7B4409001B50B5 /* calendar-128.png */,
+				DA7D90751A7B431F001B50B5 /* note-128.png */,
+				DA7D90761A7B431F001B50B5 /* save_64.png */,
+				DA7D90771A7B431F001B50B5 /* schedule.png */,
+				DA7D90781A7B431F001B50B5 /* settings-128.png */,
+				DA7D90791A7B431F001B50B5 /* share-128.png */,
+				DA7D907A1A7B431F001B50B5 /* truck-128.png */,
+			);
+			path = image;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -195,8 +284,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6E4FA21A89CFA400547080 /* ride.json in Resources */,
+				DA7D907E1A7B431F001B50B5 /* settings-128.png in Resources */,
 				DA7D90491A7B3F56001B50B5 /* Main.storyboard in Resources */,
+				DA7D90801A7B431F001B50B5 /* truck-128.png in Resources */,
+				DA5206D11A8102A100CC1519 /* Button-White.png in Resources */,
+				DA7D907B1A7B431F001B50B5 /* note-128.png in Resources */,
+				DA7D907F1A7B431F001B50B5 /* share-128.png in Resources */,
 				DA7D904E1A7B3F56001B50B5 /* LaunchScreen.xib in Resources */,
+				DA7D90851A7B4409001B50B5 /* calendar-128 (1).png in Resources */,
+				DA5206D51A8102A100CC1519 /* Table-H2.png in Resources */,
+				DA5206D21A8102A100CC1519 /* Button-Yellow.png in Resources */,
+				DA5206D31A8102A100CC1519 /* Table-F.png in Resources */,
+				DA7D90841A7B4409001B50B5 /* 19-calendar-512x512.png in Resources */,
+				DA5673001A82210A00A076B6 /* json.txt in Resources */,
+				DA5206D01A8102A100CC1519 /* Button-Blue.png in Resources */,
+				DA7D907C1A7B431F001B50B5 /* save_64.png in Resources */,
+				DA7D90861A7B4409001B50B5 /* calendar-128.png in Resources */,
+				DA5206D41A8102A100CC1519 /* Table-H1.png in Resources */,
+				DA5673051A82396F00A076B6 /* test.json in Resources */,
+				DA7D907D1A7B431F001B50B5 /* schedule.png in Resources */,
 				DA7D904B1A7B3F56001B50B5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +322,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6E4FA41A89D10300547080 /* RideVC.swift in Sources */,
+				DA5673021A82222B00A076B6 /* commanfunction.swift in Sources */,
+				DA8746A71A7FA9A500F0B241 /* ViewController.swift in Sources */,
+				DA7D90661A7B412B001B50B5 /* LoginViewController.swift in Sources */,
+				DA64D7F41A88C3F6002EE630 /* Today.swift in Sources */,
+				DA6E4FA61A89D3B100547080 /* Ride.swift in Sources */,
+				DA5672FC1A81F82400A076B6 /* RideOrder.swift in Sources */,
+				DA4891E21A838341005D5EA8 /* Addorder.swift in Sources */,
+				DA64D7F21A888A70002EE630 /* TodayVC.swift in Sources */,
 				DA7D90461A7B3F56001B50B5 /* SecondViewController.swift in Sources */,
 				DA7D90421A7B3F56001B50B5 /* AppDelegate.swift in Sources */,
 				DA7D90441A7B3F56001B50B5 /* FirstViewController.swift in Sources */,
@@ -342,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Ride Key/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Ride Key/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +529,7 @@
 				DA7D905F1A7B3F56001B50B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA7D90601A7B3F56001B50B5 /* Build configuration list for PBXNativeTarget "Ride KeyTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +538,7 @@
 				DA7D90621A7B3F56001B50B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
